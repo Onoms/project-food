@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title> Booking</title>
+		<link rel="stylesheet" href="./Stylesheet/home.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="header">
+                <div class="left">
+                    <h2>Book-A-Meal</h2>
+                </div>
+                
+				<div class="right">
+					<h2><a href="#">About-us</a></h2>
+					<h2><a href="#">Log In</a></h2>
+					<h2><a href="#">Log-Out</a></h2>
+				</div>
+			</div>
+			    <div class="content">
+				    <div class="main-content">
+					    <div class="heading">
+						<h1 class="content-h">Made with love</h1>
+						<p class="under">________________________</p>
+						<p class="under">Donec elementum erat libero, ultricies molestie justo hendrerit vel.
+                             Nullam venenatis orci sit amet volutpat porttitor,</p>
+                        <div class="btn">
+                            <input type="button" class="button" value="Meals for today">
+                        </div>   
+					    </div>
+                    </div>
+				</div>
+				<div class="today">
+						<h1 id="target" class="today-menu">Meals for today</h1>
+						<div class="center-meal">
+								<div class="today-meal">
+									<div class="meal-info">
+										<img class="get-meal" src="./img/meal2.jpg" alt="canned-pizza-dough">
+										<div class="foodD">
+											<h3>Chicken (#400)</h3>
+											<p>
+												Fried chicken  mehn, guys this recipe will change your lunch game forever! I am not even kidding. ITs specially made in nigeria anytime
+											</p>
+											
+										</div>
+											<button onclick="order('order-now', 'meal1.jpg','chicken' )" id="order-now"> Book a meal</button>
+										
+									</div>
+									<div class="meal-info">
+										<img class="get-meal" src="./img/meal2.jpg" alt="canned-pizza-dough">
+										<div class="foodD">
+											<h3>Spanul (#700)</h3>
+											<p>
+												Fried chicken  mehn, guys this recipe will change your lunch game forever! I am not even kidding. ITs specially made in nigeria anytime
+											</p>
+											
+										</div>
+										<button onclick="order('order-now', 'meal1.jpg','chicken' )" id="order-now"> Book a meal</button>
+										
+									
+								<div class="bookings">
+									<h1 class="bookings-h">
+										My Orders
+									</h1>
+									<div id="bookings-orders">
+										<div class="bookings-info">
+											<img class="get-meal" src="./img/meal2.jpg" alt="canned-pizza-dough">
+											<div class="foodD">
+												<h3>Chicken (#400 * 1) = #400</h3>
+												<div class="pay">
+													<div class="incre">
+													<button class="incre-btn">-</button>
+													<button class="incre-btn">+</button>
+													</div>
+													<button class="pay-btn">remove</button>
+												</div>
+											</div>
+									   </div>
+									</div>
+								</div>
+								</div>
+				</div>
+        </div>
+	</body>
+</html>
