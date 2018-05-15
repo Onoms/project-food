@@ -1,0 +1,95 @@
+html {
+	box-sizing: border-box;
+}
+body {
+margin: 0;
+padding: 0;
+
+}
+a{ 
+	text-decoration: none;
+	color:#DAC2BA;
+}
+a:hoover{
+
+}
+.container{
+height: 100%;
+background-size: cover;
+background-image: url(../food.jpg);
+/* background-color: #DAC2BA; */
+}
+.header{
+height: 10%;
+background-color:#E29469;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+	.left {
+		width: 30%;
+		display: block;
+    font-size: 2em;
+	font-weight: bold;
+	color: #DAC2BA
+	}
+	.right {
+		display: flex;
+		width: 45%;
+		justify-content: space-around;
+		color: #DAC2BA;
+		}
+		h2{
+			border: 1px solid #DAC2BA;
+			padding: 10px 30px;
+		}
+	
+.content{
+	
+	height: 80%;
+	/* background-color:#DAC2BA; */
+}
+.main-content{
+	position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70vw;
+    height: 65vh;
+    padding: 60px 40px;
+    box-sizing: border-box;
+	background: rgba(0,0,0,.5);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+	.under {
+		text-align: center
+	}
+.heading{
+	font-family: cursive;
+	text-align: center;
+	color: #DAC2BA;
+
+}
+
+.button {
+    background-color: #E29469;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.link{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
